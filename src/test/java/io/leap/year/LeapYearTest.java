@@ -83,7 +83,7 @@ public class LeapYearTest {
 	@DisplayName("Is Leap Year")
 	@Order(6)
 	void isLeapYear(){
-		Assertions.assertEquals(true, leapYears.isLeapYear(2005));
+		Assertions.assertEquals(false, leapYears.isLeapYear(2005));
 	}
 	
 	@Test
